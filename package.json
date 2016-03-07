@@ -1,6 +1,6 @@
 {
   "name": "fekey",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fekey 1.0",
   "main": "index.js",
   "bin": {
