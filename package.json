@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "colors": "0.6.2",
+    "commander": "1.3.2",
     "glob": "5.0.3",
     "iconv-lite": "0.2.10",
     "liftoff": "2.0.2",
@@ -32,7 +33,8 @@
     "fis3-deploy-encoding": "1.0.0",
     "fis3-hook-components": "1.0.1",
     "fis3-packager-map": "1.0.9",
-    "fis3-errors": "*"
+    "fis3-errors": "*",
+    "fekey-node": "1.0.2"
   },
   "devDependencies": {
     "chai": "^2.2.0",
