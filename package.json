@@ -34,7 +34,7 @@
     "fis3-hook-components": "1.0.1",
     "fis3-packager-map": "1.0.9",
     "fis3-errors": "*",
-    "fekey-node": "1.0.2"
+    "fekey-node": "1.0.3"
   },
   "devDependencies": {
     "chai": "^2.2.0",
