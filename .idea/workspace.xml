@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13834383-86eb-454f-9b5a-f72f2a8ef946" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cli.js" afterPath="$PROJECT_DIR$/lib/cli.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/config.js" afterPath="$PROJECT_DIR$/lib/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/fekey.js" afterPath="$PROJECT_DIR$/bin/fekey.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/fekey.js" afterPath="$PROJECT_DIR$/lib/fekey.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/project.js" afterPath="$PROJECT_DIR$/lib/project.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/release.js" afterPath="$PROJECT_DIR$/lib/release.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/util.js" afterPath="$PROJECT_DIR$/lib/util.js" />
     </list>
     <ignored path="fekey.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +36,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.08166969">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.054446463">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -143,11 +136,11 @@
         <option value="$PROJECT_DIR$/lib/file.js" />
         <option value="$PROJECT_DIR$/lib/release.js" />
         <option value="$PROJECT_DIR$/lib/util.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/fekey.js" />
         <option value="$PROJECT_DIR$/lib/cli.js" />
         <option value="$PROJECT_DIR$/bin/fekey.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -456,8 +449,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08166969">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.054446463">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
