@@ -1,6 +1,6 @@
 {
   "name": "fekey",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fekey 1.0",
   "main": "index.js",
   "bin": {
@@ -34,7 +34,7 @@
     "fis3-hook-components": "1.0.1",
     "fis3-packager-map": "1.0.9",
     "fis3-errors": "*",
-    "fekey-node": "1.0.4"
+    "fekey-node": ""
   },
   "devDependencies": {
     "chai": "^2.2.0",
