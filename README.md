@@ -1,8 +1,6 @@
 # fekey
 
 ![](https://img.shields.io/npm/v/fekey.svg) ![](https://img.shields.io/npm/dm/fekey.svg)
-[![Build Status](https://travis-ci.org/fex-team/fekey.svg?branch=master)](https://travis-ci.org/wmfe/fekey)
-[![Coverage Status](https://coveralls.io/repos/wmfe/fekey/badge.svg?branch=master&service=github)](https://coveralls.io/github/wmfe/fekey?branch=master)
 
 基于百度外卖业务，以fis3为基础的前端构建工具
 
