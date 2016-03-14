@@ -1,6 +1,6 @@
 {
   "name": "fekey",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "fekey 1.0",
   "main": "index.js",
   "bin": {
@@ -35,6 +35,7 @@
     "fis3-packager-map": "1.0.9",
     "fis3-errors": "*",
     "fekey-node": "",
+    "fekey-smarty" : "",
     "fis-parser-less" : "",
     "fis-postprocessor-px2rem": "^1.0.3",
     "fis-postprocessor-autoprefixer" : "^0.0.5",
