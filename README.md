@@ -42,6 +42,9 @@ fekey init node
 - [fis-postprocessor-autoprefixer](https://www.npmjs.com/package/fis-postprocessor-autoprefixer) css前缀添加插件
 - [fis-parser-babel-5.x](https://www.npmjs.com/package/fis-parser-babel-5.x) es6处理插件
 
+###打包类
+- [fekey-packager-smart](https://www.npmjs.com/package/fekey-packager-smart) 智能打包插件
+
 ###处理swig模板
 1. node前端工程默认引入swig.min.js和fekey-parser-swig插件
 2. 需要在fekey-conf.js中配置fekey-parser-swig处理tmpl文件
