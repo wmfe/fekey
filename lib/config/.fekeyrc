@@ -1,0 +1,17 @@
+{
+    "init": {
+        "version": "0.0.0",
+        "type": "github",
+        "detail": {
+            "php": {
+                "reps": "wmfe/fekey-scaffold-php@master"
+            },
+            "newsystem": {
+                "reps": "wmfe/fekey-scaffold-newsystem@master"
+            },
+            "node": {
+                "reps": "wmfe/fekey-scaffold-node@master"
+            }
+        }
+    }
+}

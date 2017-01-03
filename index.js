@@ -4,4 +4,4 @@
 
 'use strict';
 
-module.exports = require('./lib/fekey.js');
+module.exports = require('./lib/app/entry.js');
