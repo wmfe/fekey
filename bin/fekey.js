@@ -5,9 +5,9 @@ var Liftoff = require('liftoff');
 var argv = require('minimist')(process.argv.slice(2));
 var path = require('path');
 var cli = new Liftoff({
-    name: 'newfekey', // 命令名字
-    processTitle: 'newfekey',
-    moduleName: 'newfekey',
+    name: 'fekey', // 命令名字
+    processTitle: 'fekey',
+    moduleName: 'fekey',
     configName: 'fekey-conf',
 
     // only js supported!
@@ -30,6 +30,7 @@ cli.launch({
     // 然后才是全局环境下面安装的 fis3 目录里面的 node_modules
     fekey.require.paths.unshift(path.join(env.cwd, 'node_modules'));
     fekey.require.paths.push(path.join(path.dirname(__dirname), 'node_modules'));
+    fekey.require.paths.push(path.join(path.join(path.dirname(__dirname), 'node_modules', 'fis3', 'node_modules')));
 
     fekey.entry.start(argv, env);
 
