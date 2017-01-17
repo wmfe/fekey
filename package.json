@@ -1,6 +1,6 @@
 {
     "name": "fekey",
-    "version": "2.0.9",
+    "version": "2.0.10",
     "description": "fekey 2.0",
     "main": "index.js",
     "bin": {
@@ -14,7 +14,7 @@
         "fis-scaffold-kernel": "~0.2.0",
         "findup": "0.1.5",
         "fekey-node": "",
-        "fis3-fly": "",
+        "fekey-fly": "",
         "fekey-smarty": "",
         "fis-parser-less": "",
         "fis-postprocessor-px2rem": "^1.0.3",
