@@ -31,7 +31,5 @@ cli.launch({
     fekey.require.paths.unshift(path.join(env.cwd, 'node_modules'));
     fekey.require.paths.push(path.join(path.dirname(__dirname), 'node_modules'));
     fekey.require.paths.push(path.join(path.join(path.dirname(__dirname), 'node_modules', 'fis3', 'node_modules')));
-
     fekey.entry.start(argv, env);
-
 });
