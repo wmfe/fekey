@@ -3,9 +3,6 @@ module.exports = {
     'info': 'create a new project in h5',
     'config': {
         'type': 'github',
-        'needApp': true,
-        'path': '/h5',
-        'allowCustom': true,
         'keyword_reg': '/\\{\\{-key-\\}\\}/ig', // 文件夹名称；注意：正则写法/\$\{key\}/g, 字符串写法'/\\$\\{key\\}/g'
         'prompt': [{
             name: 'project_name',
@@ -29,6 +26,10 @@ module.exports = {
                 });
             }
         }],
+        'ignore': [
+            'config.js',
+            'README.md'
+        ],
         'after': [
             '保证本地nodeui环境可用，执行npm run self,',
             '页面路由为: https://127.0.0.1:8197/fly/h5/{{-lower_project_name-}}'
