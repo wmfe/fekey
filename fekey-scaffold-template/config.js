@@ -30,8 +30,8 @@ module.exports = {
             }
         }],
         'after': [
-            '保证本地 nodeui 环境可用，执行 npm run self, ',
-            '页面路由为 https://127.0.0.1:8197/fly/h5/${lower_project_name}'
+            '保证本地nodeui环境可用，执行npm run self,',
+            '页面路由为: https://127.0.0.1:8197/fly/h5/{{-lower_project_name-}}'
         ]
     }
 };
