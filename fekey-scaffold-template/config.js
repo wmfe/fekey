@@ -6,8 +6,7 @@ module.exports = {
         'needApp': true,
         'path': '/h5',
         'allowCustom': true,
-        'pathReg': '/\\$\\{key\\}/g', // 文件夹名称；注意：正则写法/\$\{key\}/g, 字符串写法'/\\$\\{key\\}/g'
-        'contentReg': /\{\{-key-\}\}/ig, // 同上
+        'keyword_reg': '/\\{\\{-key-\\}\\}/ig', // 文件夹名称；注意：正则写法/\$\{key\}/g, 字符串写法'/\\$\\{key\\}/g'
         'prompt': [{
             name: 'project_name',
             description: 'Enter your h5 project name',
