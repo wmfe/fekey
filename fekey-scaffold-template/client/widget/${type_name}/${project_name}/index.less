@@ -1,0 +1,36 @@
+@import '../../../static/styles/public.less';
+@import '../../../static/styles/animate.less';
+
+.global-reset();
+.background(@url, @width, @height) {
+    background: url(@url) no-repeat;
+    width: @width;
+    height: @height;
+    background-size: 100% auto;
+}
+
+.hide {
+    display: none !important;
+}
+
+@white: #fff;
+@red: #f4511f;
+
+html,
+body {
+    width: 100%;
+    background-color: @white;
+    .user-select(none);
+}
+
+.guideTip() {
+    width: 100%;
+    .v-height(200px);
+    text-align: center;
+    font-size: 30px;
+    transform: translateY(100%);
+}
+
+#{{-project_name-}} {
+    .guideTip();
+}
