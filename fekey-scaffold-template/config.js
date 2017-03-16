@@ -1,10 +1,10 @@
-// 每种 scaffold 配置文件
+// scaffold 配置文件
 module.exports = {
-    'info': 'create a new project in h5',
-    'config': {
-        'type': 'github',
-        'keyword_reg': '/\\{\\{-key-\\}\\}/ig', // 文件夹名称；注意：正则写法/\$\{key\}/g, 字符串写法'/\\$\\{key\\}/g'
-        'prompt': [{
+    info: 'create a new project in h5',
+    config: {
+        type: 'github',
+        keyword_reg: '/\\{\\{-key-\\}\\}/ig', // 文件夹名称；注意：正则写法/\$\{key\}/g, 字符串写法'/\\$\\{key\\}/g'
+        prompt: [{
             name: 'project_name',
             description: 'Enter your h5 project name',
             type: 'string',
@@ -17,20 +17,20 @@ module.exports = {
             required: true,
             default: 'huodong'
         }],
-        'property': [{
+        property: [{
             name: 'lower_project_name',
             from: 'project_name',
             calc: function(project_name) {
                 return project_name.replace(/(\w)/g, function(v) {
-                    return v.toLowerCase(); // todo
+                    return v.toLowerCase();
                 });
             }
         }],
-        'ignore': [
+        ignore: [
             'config.js',
             'README.md'
         ],
-        'after': [
+        after: [
             '保证本地nodeui环境可用，执行npm run self,',
             '页面路由为: https://127.0.0.1:8197/fly/h5/{{-lower_project_name-}}'
         ]
