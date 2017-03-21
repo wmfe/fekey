@@ -3,7 +3,8 @@ module.exports = {
     info: 'create a new project in h5',
     config: {
         type: 'github',
-        keyword_reg: '/\\{\\{-key-\\}\\}/ig', // 文件夹名称；注意：正则写法/\$\{key\}/g, 字符串写法'/\\$\\{key\\}/g'
+        // keyword_reg: '/\\{\\{-key-\\}\\}/ig', // 文件夹名称；注意：正则写法/\{\{-key-\}\}/ig, 字符串写法'/\\$\\{key\\}/ig'
+        keyword_reg: /\{\{-key-\}\}/ig, // 文件夹名称；注意：正则写法/\{\{-key-\}\}/ig, 字符串写法'/\\$\\{key\\}/ig'
         prompt: [{
             name: 'project_name',
             description: 'Enter your h5 project name',
