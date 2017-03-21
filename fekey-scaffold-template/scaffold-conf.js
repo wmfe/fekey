@@ -27,7 +27,7 @@ module.exports = {
             }
         }],
         ignore: [
-            'config.js',
+            'scaffold-conf.js',
             'README.md'
         ],
         after: [
