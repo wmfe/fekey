@@ -28,7 +28,9 @@ module.exports = {
         }],
         ignore: [
             'scaffold-conf.js',
-            'README.md'
+            'README.md',
+            '.DS_Store',
+            '.git'
         ],
         after: [
             '保证本地nodeui环境可用，执行npm run self,',
