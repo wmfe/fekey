@@ -1,6 +1,6 @@
 {
     "name": "fekey",
-    "version": "2.0.15",
+    "version": "2.0.17",
     "description": "fekey 2.0",
     "main": "index.js",
     "bin": {
@@ -12,6 +12,7 @@
         "minimist": "^1.2.0",
         "bluebird": "2.9.21",
         "fis-scaffold-kernel": "~0.2.0",
+        "ignore": "^3.2.6",
         "findup": "0.1.5",
         "fekey-node": "",
         "fekey-fly": "",
